@@ -1,0 +1,39 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title High Performance Web Hosting - Quicknodes
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='Instantly deploy and manage your website in the cloud. We offer everything your website needs from web hosting and domain name registration to web design and development.')
+    link(rel='stylesheet', href='/assets/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/assets/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/assets/css/style.css')    
+  body
+    nav.navbar.navbar-default.navbar-fixed-top
+      .navbar-title
+        .container.container-fluid
+          strong Promo Code: 75OFF 
+          | - Get 75% off for your first month of hosting!
+          ul.pull-right
+            li
+              a(href="mailto:sales@quicknodes.com")
+                i.fa.fa-envelope
+                | sales@quicknodes.com
+      .container.container-fluid
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar-collapse')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='https://www.quicknodes.com/')
+            img(alt='Quicknodes', src='/assets/img/quicknodes-long-white.svg')
+        #navbar-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.features(href='/') Home
+            li
+              a.features(href='/web-hosting/') Web Hosting
+            li
+              a.features(href='/billing/submitticket.php?step=2&deptid=1') Contact
+            li.active
+              a(href='/billing/') Client Area

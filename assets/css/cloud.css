@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: "'Aller-BoldItalic'";
+    src: url("../fonts/aller_bdit-webfont.eot");
+    src: url("../fonts/aller_bdit-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/aller_bdit-webfont.woff2") format("woff2"),
+         url("../fonts/aller_bdit-webfont.woff") format("woff"),
+         url("../fonts/aller_bdit-webfont.ttf") format("truetype"),
+         url("../fonts/aller_bdit-webfont.svg#allerbold_italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+.login-box {
+    max-width: 300px;
+    margin: auto;
+}
+.help-bottom,
+.btn-inline {
+	display: inline;
+}
+p.help-bottom {
+	padding: 10px 0;
+}
+.logo {
+	vertical-align: middle;
+  	margin: 0 auto 50px auto;
+  	display: block;
+}

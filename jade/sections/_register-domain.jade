@@ -1,0 +1,29 @@
+section.home-header
+  .container
+    h1 Register Your Dream Domain
+    h3 With #[strong FREE] Email, DNS, Theft Protection and lots more!
+    form.register-domain.col-md-8.col-centered(action="billing/domainchecker.php", method="post")
+      .domain-inputs.col-md-9
+        input.full-width(type="text", name="domain", placeholder="Search for your perfect domain", style="width: 100%;")
+      .col-md-2
+        button.btn.btn-default(type="submit") Check Availability
+      .row
+        .price.col-md-3
+          small .com
+          br
+          strong.replace-pricing(data-product="domcno") -
+        .price.col-md-3
+          small .net
+          br
+          strong.replace-pricing(data-product="dotnet") -
+        .price.col-md-3
+          small .org
+          br
+          strong.replace-pricing(data-product="domorg") -
+        .price.col-md-3
+          small .info
+          br
+          strong.replace-pricing(data-product="dominfo") -
+  #announcement
+    i.fa.fa-twitter
+    | Loading latest tweet...

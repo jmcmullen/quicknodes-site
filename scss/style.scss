@@ -1,0 +1,244 @@
+
+@import '_settings';
+
+/* Global */
+
+body {
+    padding-top: 50px;
+}
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+.container {
+    max-width: 970px;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar-title {
+  background: #333;
+  color: #fff;
+  height: 30px;
+  padding-top: 5px;
+  .fa {
+    padding-right: 5px;
+    color: #fff;
+  }
+  a {
+    color: #fff;
+    margin-right: -14px;
+  }
+  ul {
+    margin-bottom: 0;
+  }
+  li {
+    display: inline;
+    padding-left: 5px;
+    text-align: right;
+  }
+}
+.navbar-brand {
+    padding: 5px;
+}
+.navbar-brand img {
+    width: 260px;
+}
+
+/* Home Header Section */
+.home-header {
+    background: url("../img/world-map.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: $blue;
+    color: $white;
+    padding: 100px 0 0 0;
+    text-align: center;
+    form {
+      padding: 80px 0 40px 0;
+    }
+    .domain-inputs {
+      padding: 10px;
+      display: block;
+      background: $white;
+      color: $black;
+      input, select {
+        height: 23px;
+        border: none;
+        outline: none;
+      }
+      select {
+        border-left: 1px solid #dedede;
+      }
+      button {
+        margin-left: 10px;
+      }
+    }
+    .price {
+      margin: 35px 0 80px 0;
+    }
+
+    a {
+        color: #dedede;
+    }
+}
+
+/* Latest Tweet */
+#announcement {
+    margin-top: 50px;
+    background-color: #2b74a7;
+    padding: 15px;
+    list-style: none;
+}
+#announcement i {
+    padding: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+#announcement p {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+.one-click .col-md-3 {
+    padding-top: 35px;
+}
+.home-why img {
+    padding: 0 15px;
+    max-width: 150px;
+}
+.home-why .row, .faq .row {
+	padding: 15px 0;
+}
+.faq {
+    background-color: #eef1f2;
+}
+.home-pricing {
+    background-color: #eef1f2;
+    padding: 50px 0;
+    text-align: center;
+}
+.home-pricing .row {
+	padding: 10px 0;
+}
+.home-pricing .panel-footer {
+	background: #fff;
+}
+.home-pricing .panel-body {
+  padding: 5px 15px;
+}
+.home-pricing .cta-info {
+	text-align: left;
+}
+.home-pricing h3, .faq h3, .features h3 {
+	margin-bottom: 35px;
+}
+.home-pricing small {
+	color: #fff;
+}
+.faq p {
+    text-align: left;
+    padding: 10px 0;
+}
+.cta-info {
+	float: left;
+	width: 60%;
+}
+.cta-info h2 {
+	margin-top: 10px;
+}
+.cta-btn {
+	float: right;
+	width: 25%;
+	max-width: 230.5px;
+	margin: 12px 0px;
+}
+.features .row {
+    padding: 50px 0;
+}
+.features .col-md-6 {
+    text-align: left;
+}
+.features .fa-check {
+    padding-left: 10px;
+}
+.img-feature {
+    width: 100%;
+    max-width: 250px;
+}
+footer {
+	padding: 35px 0;
+	background: #333 !important;
+}
+footer p {
+	opacity: .3;
+	color: #fff;
+}
+footer strong {
+	margin-top: 10px;
+	display: block;
+}
+footer ul {
+	padding: 0;
+	color: #fff;
+	list-style: none;
+	margin: 0;
+}
+footer ul a {
+	color: #fff;
+	opacity: .3;
+}
+footer ul a:hover {
+	color: #fff;
+	opacity: .3;
+}
+footer img {
+	opacity: .3;
+	max-width: 150px;
+}
+.terms-of-service {
+    padding: 50px 0;
+}
+
+
+@media (max-width: 767px) {
+    .btn {
+        width: 100%;
+    }
+    .cta-btn,
+    .cta-info {
+        width: 100%;
+        max-width: 100%;
+        float: none;
+    }
+    footer .col-md-3,
+    footer .col-md-2 {
+        text-align: center;
+        width: 100% !important;
+        float: none !important;
+    }
+}
+.domain-register {
+	text-align: center;
+	padding: 50px 0;
+	background: #dedede;
+}
+.domain-register .form-inline {
+	padding: 25px 0;
+}
+.domain-register .form-control {
+	width: 400px;
+}
